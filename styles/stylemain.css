@@ -124,7 +124,7 @@ section#anuncio > article > p {
 }
 
 section#anuncio img{
-    width: 380px;
+    width: 85%;
     display: block;
     margin: auto;
     border-radius: 4px;

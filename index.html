@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles/stylemain.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
 </head>
-<body>
+<body onresize="mudoutamanho()">
         <header>
             <nav>
                 <h1 id="nomeloja">Eletrônica JS</h1>
@@ -79,6 +79,15 @@
             }
             else {
                 areamenu.style.display = 'block'
+            }
+        }
+
+        function mudoutamanho() {
+            if (window.innerWidth >= 768) {
+                areamenu.style.display = 'block'
+            }
+            else {
+                areamenu.style.display = 'none'
             }
         }
     </script>

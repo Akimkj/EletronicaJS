@@ -111,6 +111,20 @@ section#anuncio > article {
 
 .fraseefeito {
     font: normal bold 1.5em arial, sans-serif;
-    padding-bottom: 10px;
+    padding: 1em 1em 0px 1em;
     text-align: center;
+}
+
+section#anuncio > article > p {
+    text-align: justify;
+    text-indent: 1em;
+    line-height: 1.5em;
+    padding: 10px;
+}
+
+section#anuncio img{
+    width: 380px;
+    display: block;
+    margin: auto;
+    border-radius: 4px;
 }

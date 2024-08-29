@@ -21,7 +21,7 @@
 body, html {
     height: 100%;
     width: 100%;
-    background-color: #3370A6;
+    background-color: #ffffff;
 }
 
 nav {
@@ -46,6 +46,7 @@ h1#nomeloja {
     font-weight: bold;
     padding: 5px;
     float: right;
+    cursor: pointer;
 }
 menu {
     display: none;
@@ -100,3 +101,16 @@ header > p {
     padding-top: 10px;
 }
 
+section#anuncio {
+    padding: 1em;
+}
+
+section#anuncio > article {
+    margin: 10px 0px;
+}
+
+.fraseefeito {
+    font: normal bold 1.5em arial, sans-serif;
+    padding-bottom: 10px;
+    text-align: center;
+}

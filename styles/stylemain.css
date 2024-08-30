@@ -48,6 +48,7 @@ h1#nomeloja {
     padding: 5px;
     float: right;
     cursor: pointer;
+    margin-right: 10px;
 }
 menu {
     display: none;
@@ -58,9 +59,9 @@ menu > ul {
     list-style-type: none;
     display: block;
     background-color: rgb(245, 244, 244);
-    padding: 5px;
     border-radius: 5px;
     box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.329);
+    overflow: hidden;
 }
 
 menu > ul > li {
@@ -124,7 +125,7 @@ section#anuncio > article > p {
 }
 
 section#anuncio img{
-    width: 85%;
+    width: 90%;
     display: block;
     margin: auto;
     border-radius: 4px;
@@ -140,3 +141,47 @@ section#servicos > h2 {
     text-align: center;
     text-shadow: 2px 2px 2px rgba(49, 49, 49, 0.452);
 }
+
+.servicetype {
+    width: 90%;
+    margin: 1em auto;
+    color: black;
+    background-color: var(--whitespace);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 1px 2px 2px rgba(49, 49, 49, 0.452);
+}
+
+.backimgservice {
+   width: 100%;
+   background: #FFCB70 url(../imgs/back-tv.jpg) center no-repeat scroll;
+   background-size: cover;
+   height: 15em;
+}
+
+.textservice {
+    padding: 1em 2em 2em 2em;
+}
+
+.textservice h3 {
+    text-align: center;
+    padding-bottom: 1em;
+    font-size: 1.4em;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.137);
+}
+
+.textservice p {
+    text-align: justify;
+    text-indent: 1em;
+}
+
+#itv {
+    background-image: url(../imgs/back-tv.jpg);
+}
+#imicroondas {
+    background-image: url(../imgs/back-microondas.jpg);
+}
+#iairfryer {
+    background-image: url(../imgs/back-airfryer.jpg);
+}
+

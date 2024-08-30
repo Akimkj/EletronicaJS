@@ -189,11 +189,12 @@ section#infos p {
 footer {
     background-color: rgb(51, 48, 48);
     color: white;
-    padding: 2em;
+    padding: 1em 2em 0.5em 2em;
 }
 #isobrenos {
     float: left;
-    padding: 1em;
+    padding: 1em 1em 1.5em 1em;
+
 }
 #isobrenos > h2 {
     font-size: 1.2em;
@@ -204,3 +205,9 @@ footer {
     text-align: justify;
     font-size: 0.9em;
 }
+#credits {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.8em;
+}
+

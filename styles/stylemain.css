@@ -198,7 +198,25 @@ section#infos h2 {
 section#infos p {
     text-align: justify;
     font-size: 1.1em;
+    text-indent: 1em;
 }
+section#infos > article > div {
+    padding-top: 1em;
+}
+#whatscampo {
+    padding: 1em;
+    display: block;
+}
+#whatscampo > p { 
+    display: inline-block;
+    transform: translate(-10px, -12px);
+    
+}
+#iconzap {
+    width: 40px;
+    padding-top: 1em;
+}
+
 
 footer {
     background-color: rgb(51, 48, 48);

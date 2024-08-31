@@ -37,7 +37,7 @@ body, html {
 
 nav {
     display: block;
-    padding: 5px;
+    padding: 8px;
     backdrop-filter: blur(15px);
     background-color: #217bcad3;
     color: rgb(219, 218, 218);
@@ -93,7 +93,7 @@ header {
     background: white url(../imgs/backmain-tv.jpg) center bottom no-repeat fixed;
     background-size: cover;
     color: white;
-    height: 66%;
+    height: 55%;
     position: relative;
     
 }

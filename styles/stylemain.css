@@ -139,8 +139,9 @@ section#servicos {
 }
 section#servicos > h2 {
     text-align: center;
-    text-shadow: 2px 2px 2px rgba(49, 49, 49, 0.452);
+    text-shadow: 2px 2px 2px rgba(32, 32, 32, 0.507);
     font-size: 2em;
+    
 }
 .servicetype {
     width: 90%;

@@ -14,7 +14,7 @@
     --cor3: #EBDB81;
     --cor4: #EBE8DD;
     --whitespace: #fefaf1;
-    --letterign: ;
+    --letterign: 'idroid', times, 'times new roman', serif;
     --fontgeral: 'Poppins', 'Open Sans', sans-serif;
     --fontTitulos: 'Roboto', system-ui, sans-serif;
 }
@@ -39,7 +39,7 @@ nav {
     display: block;
     padding: 5px;
     backdrop-filter: blur(15px);
-    background-color: #1776ca3a;
+    background-color: #217bcad3;
     color: rgb(219, 218, 218);
     width: 100%;
     margin-bottom: 2em;
@@ -47,9 +47,11 @@ nav {
 h1#nomeloja {
     padding: 5px;
     padding-left: 10px;
-    font-size: 1.7em;
+    font-size: 1.5em;
     display: inline-block;
     text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.356);
+    font-family: var(--letterign);
+    font-weight: normal;
 }
 #iconmenu {
     font-size: 2em;
@@ -92,19 +94,24 @@ header {
     background-size: cover;
     color: white;
     height: 70%;
+    position: relative;
     
 }
 h1#tituloPrincipal {
     font: normal bold 1.8em var(--fontTitulos);
     text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.452);
+}
+#mainapresentation {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
     text-align: center;
-    padding-top: 4em;
 }
 header > p {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.301);
-    font-size: 1.1em;
-    text-align: center;
-    padding-top: 10px;
+    
 }
 
 section#anuncio {

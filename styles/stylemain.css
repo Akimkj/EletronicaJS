@@ -221,25 +221,28 @@ section#infos > article > div {
 footer {
     background-color: rgb(51, 48, 48);
     color: white;
-    padding: 1em 2em 0.5em 2em;
+    padding: 1em 0em 0.5em 0em;
 }
 #isobrenos {
-    float: left;
-    padding: 1em 1em 1.5em 1em;
-
+    padding: 0.8em 2em 0.7em 2em;
+    
 }
 #isobrenos > h2 {
-    font-size: 1.2em;
+    font-size: 1.1em;
     padding-bottom: 0.3em;
     text-shadow: 1px 2px 2px rgba(100, 96, 96, 0.61);
 }
 #isobrenos > p {
     text-align: justify;
-    font-size: 0.9em;
+    font-size: 0.8em;
+    width: 90%;
 }
-#credits {
+footer > p {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 0.8em;
+    padding-top: 1em;
+    display: block;
+    border-top: 1px solid #fefaf179;
 }
 

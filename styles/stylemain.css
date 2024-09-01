@@ -115,7 +115,7 @@ header > p {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.301);
     
 }
-@media screen and (orientation: landscape) {
+@media screen and (max-width:768px) and (orientation: landscape) {
     header {
         height: 100%;
     }

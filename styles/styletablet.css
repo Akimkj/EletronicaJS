@@ -14,3 +14,7 @@ section#anuncio img{
 .backimgservice {
     width: 200%;
 }
+
+#isobrenos > p {
+    width: 62%;
+}

@@ -6,6 +6,7 @@
     <title>Eletrônica JS</title>
     <link rel="stylesheet" href="styles/stylemain.css" media="all">
     <link rel="stylesheet" href="styles/styletablet.css" media="screen and (min-width: 768px) and (max-width:992px)">
+    <link rel="stylesheet" href="styles/stylebigscreens.css" media=" screen and (min-width: 992px)">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
 </head>
 <body onresize="mudoutamanho()">
@@ -28,40 +29,46 @@
         </header>
     <main>
         <section id="anuncio">
-            <article>
-                <h2 class="fraseefeito">Seu bolso agradece: conserto de eletrônicos com preço justo.</h2>
-                <p>Seu aparelho está quebrado e não pode gastar muito? Não se preocupe! Na Eletrônica JS, oferecemos  serviço com a melhor relação custo-benefício da região. Investir em um conserto agora pode evitar gastos maiores no futuro. <strong>Nossos preços são justos e cabem no seu bolso.</strong></p>
+            <article id="economico">
+                <article id="conteudoeco">
+                    <h2 class="fraseefeito">Seu bolso agradece: conserto de eletrônicos com preço justo.</h2>
+                    <p>Seu aparelho está quebrado e não pode gastar muito? Não se preocupe! Na Eletrônica JS, oferecemos  <strong>serviço com a melhor relação custo-benefício da região</strong>. Investir em um conserto agora pode evitar gastos maiores no futuro. Nossos preços são justos e cabem no seu bolso.</p>
+                </article>
                 <img src="imgs/img-familiafeliz.jpg" alt="família feliz olhando algo na Televisão">
             </article>
-            <article>
-                <h2 class="fraseefeito">Conserto de alta qualidade, com garantia.</h2>
-                <p>Qualidade e preço baixo não precisam ser incompatíveis. Nossos técnicos são altamente capacitados e possuem anos de experiência no conserto de aparelhos.<strong> Oferecemos garantia de 90 dias em todos os nossos serviços.</strong> Sua satisfação é a nossa maior recompensa.</p>
+            <article id="qualidade">
+                <article id="conteudoquali">
+                    <h2 class="fraseefeito">Conserto de alta qualidade, com garantia.</h2>
+                    <p>Qualidade e preço baixo não precisam ser incompatíveis. Nossos técnicos são altamente capacitados e possuem anos de experiência no conserto de aparelhos.<strong> Oferecemos garantia de 90 dias em todos os nossos serviços.</strong> Sua satisfação é a nossa maior recompensa.</p>
+                </article>
                 <img src="imgs/img-irmaosdesenho2.jpg" alt="irmãos abraçados, ambos sentados no chão, olhando um desenho na Televisão">
             </article>
         </section>
         <section id="servicos">
             <h2><a name="service">Serviços</a></h2>
-            <article class="servicetype">
-                <div class="backimgservice" id="itv"></div>
-                <div class="textservice">
-                    <h3>Televisão</h3>
-                    <p>Sua TV não liga? A imagem está ruim? Conte com a gente para um conserto rápido e eficiente! Consertamos vários tipos de televisores, com diferentes tecnologias, <strong>como LED e LCD <small>Etc.</small></strong></p>
-                </div>
-            </article>
-            <article class="servicetype">
-                <div class="backimgservice" id="imicroondas"></div>
-                <div class="textservice">
-                    <h3>Microondas</h3>
-                    <p>Seu microondas é essencial no dia a dia. Não deixe que um defeito atrapalhe sua rotina. Conosco, seu microondas volta a funcionar em perfeito estado. <strong>Consertamos todos os tipos de defeitos: não esquenta, faz barulho estranho, não gira o prato, e muito mais.</strong></p>
-                </div>
-            </article>
-            <article class="servicetype">
-                <div class="backimgservice" id="iairfryer"></div>
-                <div class="textservice">
-                    <h3>Air Fryer</h3>
-                    <p>Não precisa trocar sua air fryer! Um conserto rápido e eficiente pode economizar seu dinheiro e evitar o descarte de eletrônicos. Identificamos rapidamente o problema da sua air fryer e oferecemos a melhor solução para que ela volte a funcionar como nova.</p>
-                </div>
-            </article>
+            <section id="camposerviceconteudo">
+                <article class="servicetype">
+                    <div class="backimgservice" id="itv"></div>
+                    <div class="textservice">
+                        <h3>Televisão</h3>
+                        <p>Sua TV não liga? A imagem está ruim? Conte com a gente para um conserto rápido e eficiente! Consertamos vários tipos de televisores, com diferentes tecnologias, <strong>como LED e LCD <small>Etc.</small></strong></p>
+                    </div>
+                </article>
+                <article class="servicetype">
+                    <div class="backimgservice" id="imicroondas"></div>
+                    <div class="textservice">
+                        <h3>Microondas</h3>
+                        <p>Seu microondas é essencial no dia a dia. Não deixe que um defeito atrapalhe sua rotina. Conosco, seu microondas volta a funcionar em perfeito estado. <strong>Consertamos todos os tipos de defeitos: não esquenta, faz barulho estranho, não gira o prato, e muito mais.</strong></p>
+                    </div>
+                </article>
+                <article class="servicetype">
+                    <div class="backimgservice" id="iairfryer"></div>
+                    <div class="textservice">
+                        <h3>Air Fryer</h3>
+                        <p>Não precisa trocar sua air fryer! Um conserto rápido e eficiente pode economizar seu dinheiro e evitar o descarte de eletrônicos. Identificamos rapidamente o problema da sua air fryer e oferecemos a melhor solução para que ela volte a funcionar como nova.</p>
+                    </div>
+                </article>
+            </section>
         </section>
         <section id="infos">
             <article id="contact" name="contact">

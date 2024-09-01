@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+
+
+h1#tituloPrincipal {
+    font-size: 2em;
+}
+
 section#anuncio img{
     width: 55%;
 }
@@ -15,7 +21,10 @@ section#anuncio > article > p {
     width: 85%;
 }
 .textservice {
-    padding: 1em 2em 2em 1em;
+    padding: 1em 2em 0em 1em;
+}
+.textservice h3 {
+    padding-bottom: 0.3em;
 }
 .backimgservice {
     width: 200%;

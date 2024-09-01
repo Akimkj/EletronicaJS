@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #1776CA;
+    --cor2: #50A8F0;
+    --cor3: #EBDB81;
+    --cor4: #EBE8DD;
+    --whitespace: #fefaf1;
+    --letterign: 'idroid', times, 'times new roman', serif;
+    --fontgeral: 'Poppins', 'Open Sans', sans-serif;
+    --fontTitulos: 'Roboto', system-ui, sans-serif;
+}
+
+#iconmenu {
+    display: none;
+}
+h1#nomeloja {
+    transform: translateY(4px);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+menu {
+    display: block;
+}
+menu > ul {
+    display: inline-flex;
+    justify-content: space-evenly;
+    background-color: #217bca00;
+    box-shadow: none;
+}
+menu > ul > li {
+    text-align: center;
+    border-top: none;
+    margin: 0em 1em 0.6em 7em;
+    border-radius: 5px;
+    background-color: var(--whitespace);
+    box-shadow: 3px 3px 2px var(--cor3);
+}
+menu > ul > li:hover{
+    background-color: #0f0f0f3a;
+}
+menu > ul > li > a {
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.329);
+    padding: 10px;
+}
+
+h1#tituloPrincipal {
+    font-size: 2.2em;
+}
+
+
+section#anuncio > article {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1em;
+}
+section#anuncio > article > article {
+    width: 50%;
+    padding-left: 1em;
+}
+section#anuncio > #qualidade {
+    margin-top: 6em;
+}
+section#anuncio img{
+    width: 30%;
+}
+
+
+#camposerviceconteudo {
+    display: flex;
+    justify-content: space-between;
+}
+.servicetype {
+    margin: 2em 1em;
+    width: 120%;
+}

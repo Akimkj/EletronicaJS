@@ -124,17 +124,17 @@ section#anuncio > article {
 }
 .fraseefeito {
     font: normal bold 1.7em var(--fontTitulos);
-    padding: 1.5em 0.6em 0.5em 0.6em;
+    padding: 1.5em 0.6em 0.2em 0em;
     text-align: justify;
 }
 section#anuncio > article > p {
     text-align: justify;
     line-height: 1.5em;
-    padding: 10px;
+    padding: 3px ;
     padding-bottom: 1em;
 }
 section#anuncio img{
-    width: 90%;
+    width: 80%;
     display: block;
     margin: auto;
     border-radius: 4px;

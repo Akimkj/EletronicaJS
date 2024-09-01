@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eletrônica JS</title>
-    <link rel="stylesheet" href="styles/stylemain.css">
+    <link rel="stylesheet" href="styles/stylemain.css" media="all">
+    <link rel="stylesheet" href="styles/styletablet.css" media="screen and (min-width: 768px) and (max-width:992px)">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
 </head>
 <body onresize="mudoutamanho()">
@@ -93,7 +94,7 @@
         }
 
         function mudoutamanho() {
-            if (window.innerWidth >= 768) {
+            if (window.innerWidth >= 992) {
                 areamenu.style.display = 'block'
             }
             else {

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+section#anuncio img{
+    width: 60%;
+}
+
+.servicetype {
+    display: flex;
+    width: 85%;
+}
+.textservice {
+    padding: 1em 2em 2em 1em;
+}
+.backimgservice {
+    width: 200%;
+}

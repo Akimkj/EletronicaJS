@@ -123,7 +123,7 @@ section#anuncio > article {
 .fraseefeito {
     font: normal bold 1.8em var(--fontTitulos);
     padding: 1.5em 0.5em 0.5em 0.4em;
-    text-align: left;
+    text-align: justify;
 }
 section#anuncio > article > p {
     text-align: justify;

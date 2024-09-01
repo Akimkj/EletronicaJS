@@ -1,7 +1,13 @@
 @charset "UTF-8";
 
 section#anuncio img{
-    width: 60%;
+    width: 55%;
+}
+section#anuncio > article > p {
+    padding: 1em ;
+}
+.fraseefeito {
+    padding-left: 0.8em;
 }
 
 .servicetype {

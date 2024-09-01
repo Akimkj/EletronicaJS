@@ -121,7 +121,7 @@ section#anuncio > article {
     margin: 10px 0px;
 }
 .fraseefeito {
-    font: normal bold 1.8em var(--fontTitulos);
+    font: normal bold 1.7em var(--fontTitulos);
     padding: 1.5em 0.5em 0.5em 0.4em;
     text-align: justify;
 }

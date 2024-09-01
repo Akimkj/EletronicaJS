@@ -109,11 +109,16 @@ h1#tituloPrincipal {
     transform: translate(-50%, -50%);
     width: 100%;
     text-align: center;
-    padding-top: 3em;
+   padding-top: 4em;
 }
 header > p {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.301);
     
+}
+@media screen and (orientation: landscape) {
+    header {
+        height: 100%;
+    }
 }
 
 section#anuncio {

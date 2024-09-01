@@ -122,12 +122,11 @@ section#anuncio > article {
 }
 .fraseefeito {
     font: normal bold 1.8em var(--fontTitulos);
-    padding: 1em 0.5em 0px 0.5em;
-    text-align: center;
+    padding: 1.5em 0.5em 0.5em 0.4em;
+    text-align: left;
 }
 section#anuncio > article > p {
     text-align: justify;
-    text-indent: 1em;
     line-height: 1.5em;
     padding: 10px;
     padding-bottom: 1em;
@@ -176,7 +175,6 @@ section#servicos > h2 {
 }
 .textservice p {
     text-align: justify;
-    text-indent: 1em;
 }
 #itv {
     background-image: url(../imgs/back-tv.jpg);
@@ -205,7 +203,6 @@ section#infos h2 {
 section#infos p {
     text-align: justify;
     font-size: 1.1em;
-    text-indent: 1em;
 }
 section#infos > article > div {
     padding-top: 1em;
@@ -213,11 +210,11 @@ section#infos > article > div {
 #whatscampo {
     padding: 1em;
     display: block;
+    text-align: center;
 }
 #whatscampo > p { 
     display: inline-block;
-    transform: translate(-10px, -12px);
-    
+    transform: translate(-0px, -12px);
 }
 #iconzap {
     width: 40px;

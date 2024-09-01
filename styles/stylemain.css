@@ -93,12 +93,13 @@ header {
     background: white url(../imgs/backmain-tv.jpg) center bottom no-repeat fixed;
     background-size: cover;
     color: white;
-    height: 62%;
+    height: 55%;
     position: relative;
     
 }
 h1#tituloPrincipal {
     font: normal bold 1.8em var(--fontTitulos);
+
     text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.452);
 }
 #mainapresentation {
@@ -108,6 +109,7 @@ h1#tituloPrincipal {
     transform: translate(-50%, -50%);
     width: 100%;
     text-align: center;
+    padding-top: 3em;
 }
 header > p {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.301);

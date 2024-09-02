@@ -92,12 +92,16 @@ menu > ul > li > a {
 menu > ul > li:hover{
     background-color: var(--cor4);
 }
+menu > ul > li > a > .material-symbols-outlined {
+    padding-right: 5px;
+    transform: translateY(5px);
+}
 
 header {
     background: white url(../imgs/remote-control1.jpg) center bottom no-repeat fixed;
     background-size: cover;
     color: white;
-    height: 55%;
+    height: 58%;
     position: relative;
     
 }
@@ -113,16 +117,11 @@ h1#tituloPrincipal {
     transform: translate(-50%, -50%);
     width: 100%;
     text-align: center;
-   padding-top: 4em;
+    padding-top: 8em;
 }
 header > p {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.301);
     
-}
-@media screen and (max-width: 800px) and (orientation: landscape) {
-    header {
-        height: 120%;
-    }
 }
 
 section#anuncio {

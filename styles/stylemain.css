@@ -112,7 +112,7 @@ h1#tituloPrincipal {
 #mainapresentation {
     width: 100%;
     text-align: center;
-    transform: translateY(2em);
+    transform: translateY(4em);
 }
 header > p {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.301);

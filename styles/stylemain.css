@@ -101,7 +101,7 @@ header {
     background: white url(../imgs/remote-control1.jpg) center bottom no-repeat fixed;
     background-size: cover;
     color: white;
-    height: 55%;
+    height: 57%;
 }
 h1#tituloPrincipal {
     font: normal bold 1.8em var(--fontTitulos);
@@ -110,7 +110,7 @@ h1#tituloPrincipal {
 #mainapresentation {
     width: 100%;
     text-align: center;
-    transform: translateY(50px);
+    transform: translateY(calc(100% - 50%));
 }
 header > p {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.301);

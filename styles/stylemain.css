@@ -117,7 +117,7 @@ h1#tituloPrincipal {
     transform: translate(-50%, -50%);
     width: 100%;
     text-align: center;
-    padding-top: 8em;
+    margin-top: 3em;
 }
 header > p {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.301);

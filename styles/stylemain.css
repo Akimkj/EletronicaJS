@@ -101,7 +101,7 @@ header {
     background: white url(../imgs/remote-control1.jpg) center bottom no-repeat fixed;
     background-size: cover;
     color: white;
-    height: 57%;
+    height: 48%;
     overflow: hidden;
     display: flex;
     flex-direction: column;

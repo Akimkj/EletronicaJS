@@ -10,6 +10,7 @@ Landing Page da Eletrônica JS</h1>
   <li><strong>Início:</strong> Localiza-se o 'Navigation Bar' e as boas vindas aos visitantes.</li>
   <li><strong>Anúncio:</strong> Descrição sobre a qualidade e o custo-benefício do serviço ofertado.</li>
   <li><strong>Serviços:</strong> Apresentação dos serviços ofertados pela empresa.</li>
+  <li><strong>Contato:</strong> Local onde encontra-se o número para entrar em contato com o proprietário.</li>
   <li><strong>Sobre:</strong> Descrição breve sobre a empresa.</li>
 </ul>
 <h2>👩‍💻 Tecnologias utilizadas</h2>

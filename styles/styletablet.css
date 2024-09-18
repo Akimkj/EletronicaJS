@@ -18,6 +18,7 @@ section#anuncio > article > p {
 
 .servicetype {
     display: flex;
+    flex-flow: row nowrap;
     width: 85%;
 }
 .textservice {
@@ -27,7 +28,7 @@ section#anuncio > article > p {
     padding-bottom: 0.3em;
 }
 .backimgservice {
-    width: 200%;
+   flex: 1 1 200%;
 }
 
 #isobrenos > p {

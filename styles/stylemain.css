@@ -37,12 +37,13 @@ body, html {
 
 nav {
     display: block;
+    position: fixed;
+    top: -1px;
     padding: 8px;
-    backdrop-filter: blur(15px);
-    background-color: #217bcad3;
+    backdrop-filter: blur(30px);
+    background-color: #217bcabb;
     color: rgb(219, 218, 218);
     width: 100%;
-    margin-bottom: 2em;
 }
 h1#nomeloja {
     padding: 5px;
@@ -106,7 +107,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 h1#tituloPrincipal {
@@ -162,6 +163,11 @@ section#servicos > h2 {
     text-shadow: 2px 2px 2px rgba(32, 32, 32, 0.507);
     font-size: 2em;
     
+}
+
+#camposerviceconteudo {
+    display: flex;
+    flex-flow: column nowrap;
 }
 .servicetype {
     width: 90%;
@@ -265,5 +271,15 @@ footer > p {
     display: block;
     border-top: 1px solid #27262579;
     font-weight: 800;
+}
+
+@media screen and (max-width: 600px) {
+    h1#nomeloja {
+        font-size: 1.4em;
+    }
+
+    #iconmenu {
+        font-size: 1.8em;
+    }
 }
 

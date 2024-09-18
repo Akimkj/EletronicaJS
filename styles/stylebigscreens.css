@@ -69,6 +69,7 @@ section#anuncio img{
 
 #camposerviceconteudo {
     display: flex;
+    flex-flow: row nowrap;
     justify-content: space-between;
 }
 .servicetype {
